@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KONTAK KAMI</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero-section {
+            background-image: url('https://static.wikia.nocookie.net/crowsxworst/images/e/e8/Suzuran_CZ.jpg/revision/latest/scale-to-width/360?cb=20230419024053');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .profile-card {
+            transition: transform 0.3s;
+        }
+        .profile-card:hover {
+            transform: scale(1.05);
+        }
+        .event-card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SMK BAWAH TANAH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">BERANDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="profil.html">PROFIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galery.html">GALERI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">KONTAK</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn bg-warning me-2" type="button"><a href="ppdb.html">PPDB</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+<div id="kontak" class="container my-5">
+    <h2 class="text-center mb-4">Kontak Kami</h2>
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <form>
+                <div class="mb-3">
+                    <label for="name" class="form-label">Nama Lengkap</label>
+                    <input type="text" class="form-control" id="name" placeholder="Masukkan nama lengkap Anda">
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Masukkan email Anda">
+                </div>
+                <div class="mb-3">
+                    <label for="message" class="form-label">Pesan</label>
+                    <textarea class="form-control" id="message" rows="3" placeholder="Tulis pesan Anda di sini"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+        </div>
+
+           <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

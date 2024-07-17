@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROFIL SEKOLAH</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .hero-section {
+            background-image: url('https://static.wikia.nocookie.net/crowsxworst/images/e/e8/Suzuran_CZ.jpg/revision/latest/scale-to-width/360?cb=20230419024053');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        }
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .profile-card {
+            transition: transform 0.3s;
+        }
+        .profile-card:hover {
+            transform: scale(1.05);
+        }
+        .event-card:hover {
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SMK BAWAH TANAH</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">BERANDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="profil.html">PROFIL</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="galery.html">GALERI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="kontak.html">KONTAK</a>
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn bg-warning me-2" type="button"><a href="ppdb.html">PPDB</button></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero-section p-5 rounded-lg m-3 text-center">
+        <h1 class="display-4">PROFIL SEKOLAH</h1>
+        <p class="lead">SEJARAH, VISI, MISI, DAN PROFIL GURU</p>
+    </div>
+
+    <!-- About Section -->
+    <div class="container my-5">
+        <div class="accordion" id="schoolProfileAccordion">
+            <!-- Sejarah -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        SEJARAH
+                    </button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#schoolProfileAccordion">
+                    <div class="accordion-body">
+                        <p>SMK BAWAH TANAH BERDIRI SEJAK 1960 DAN BERTUJUAN MENDIDIK SISWA SISWI YANG BERKUALITAS. MENGHASILKAN LULUSAN YANG CERDAS, BERMARTABAT DAN BERAKHLAKUL KARIMAH. </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Visi -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        VISI
+                    </button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#schoolProfileAccordion">
+                    <div class="accordion-body">
+                        <p>
+                           SMK BAWAH TANAH HARUS MENJADI LEMBAGA PENDIDIKAN DAN MENGHASILKAN LULUSAN YANG MENJUNJUNG TINGGI TANAH AIR.
+                           MENCIPTAKAN SISWA-SISWA KEPEMIMPINAN YANG KUAT AGAR MAMPU MENGHADAPI TANTANGAN DENGAN KEPALA PANAS.     
+                           MEMBANGUN KEKUATAN FISIK DAN MENTAL SISWA AGAR MENJADI JUARA BERTAHAN.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Misi -->
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        MISI
+                    </button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#schoolProfileAccordion">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>MENYEDIAKAN APAPUN KELUH KESAH DISEKOLAH</li>
+                            <li>MENGEMBANGKAN BUDI PERKERTI YANG LUHUR DAN HARDCORE</li>
+                            <li>MELAKSANAKAN KEGIATAN BELAJAR YANG AKTIF DAN SESUAI SYARIAT BAWAH TANAH</li>
+                            <li>MENJALIN KONEKSI KE SEMUA DAN SIAPAPUN YANG BERSINONIM DENGAN SYARIAT</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Teacher Profiles Section -->
+    <div class="container my-5">
+        <h2 class="text-center mb-4">PROFIL GURU</h2>
+        <div class="row">
+
+            <!-- headmaster -->
+            <div class="col-md-4 mb-3">
+                <div class="card profile-card">
+                    <img src="AING.jpeg" class="card-img-top" alt="Guru 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">666USTI, M.Hc</h5>
+                        <p class="card-text">KEPALA SEKOLAH</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Teacher 1 -->
+            <div class="col-md-4 mb-3">
+                <div class="card profile-card">
+                    <img src="ENG.jpeg" class="card-img-top" alt="Guru 1">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">AANG NURIL ABSH, S.Tk</h5>
+                        <p class="card-text">TUKANG KEBUN</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Teacher 2 -->
+            <div class="col-md-4 mb-3">
+                <div class="card profile-card">
+                    <img src="NJB.jpeg" class="card-img-top" alt="Guru 2">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">M RIYAN NAJIB K, S.O</h5>
+                        <p class="card-text">GURU OTOMOTIF</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Teacher 3 -->
+            <div class="col-md-4 mb-3">
+                <div class="card profile-card">
+                    <img src="UD.jpeg" class="card-img-top" alt="Guru 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">M IZZA JAMALUDDIN, S.Sn</h5>
+                        <p class="card-text">GURU SENI RUPA</p>
+                    </div>
+                </div>
+            </div>
+             <!-- Teacher 4 -->
+             <div class="col-md-4 mb-3">
+                <div class="card profile-card">
+                    <img src="ZD.jpeg" class="card-img-top" alt="Guru 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">M. ZIDAN ALIF A,  S.I</h5>
+                        <p class="card-text">GURU INDUSTRI</p>
+                    </div>
+                </div>
+            </div>
+              <!-- Teacher 5 -->
+              <div class="col-md-4 mb-3">
+                <div class="card profile-card">
+                    <img src="noto.jpeg" class="card-img-top" alt="Guru 3">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">AHMAD WILDAN K, S.</h5>
+                        <p class="card-text">G</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Add more teacher profiles here -->
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
